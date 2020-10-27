@@ -1,2 +1,12 @@
-# huntsformovies
-It is a small search app for movies
+# Requirements 
+
+Python 3.6.9 or above 
+
+A huntsformovie repo will need a python environment with a requirements.txt
+
+Access this at following URL
+
+
+The requirements.txt file should list all Python libraries that your notebooks depend on, and they will be installed using:
+
+ pip install -r requirements.txt
