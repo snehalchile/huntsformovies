@@ -36,7 +36,6 @@ def search_movies(request):
         else:
             results = search_engine.get_query_result()
     except Exception as e:
-        print("eeee",e)
         results = []
     return JsonResponse(results,status=status.HTTP_200_OK,safe=False)
 
